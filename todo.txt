@@ -1,0 +1,5 @@
+the following tasks depend on the integration with a libc:
+  - locking
+  - if memory corruption is detected, cause a segfault
+  - adapt asserts to libc; asserts may indicate memory corruption, so:
+    segfault!
